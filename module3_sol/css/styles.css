@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  background-color: #E72812;
+  font-family: 'Sahitya', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #FAD7A0;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'AbrilFatface', serif;
+  color: #922B21;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  border: 1.5px solid black;
+  background: #F8C471;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.menu-title {
+  color: #FAD7A0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#menu-item, .menu-item-title{
+  font-weight: bold;
+  color:#273746;
+  padding-top: 5px;
+  text-align: center;
+}
+#menu-item{
+  background-color: #FAD7A0;
+  padding: 20px;
+  color: #922B21;
+}
+/* END HOME PAGE */
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  .container .menu-title {
+    margin-top: 10px;
+    padding: 0;
+  }
+}
+
+/********** Medium and Large devices only **********/
+@media (min-width: 768px) {
+  #header-nav {
+    height: 100px;
+  }
+}
+/* End Header */
+
